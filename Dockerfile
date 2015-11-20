@@ -1,5 +1,5 @@
 FROM ubuntu
-MAINTAINER 'alex.shadrin@teamaol.com'
+MAINTAINER Alex SHD 'alex.shadrin@teamaol.com'
 
 RUN apt update -y; apt upgrade -y 
 RUN mkdir /etc/consul.d/ /opt/consul
